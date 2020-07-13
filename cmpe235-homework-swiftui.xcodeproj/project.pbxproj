@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5D78BD24BC0D3000654238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D78BC24BC0D3000654238 /* AppDelegate.swift */; };
+		0B5D78BF24BC0D3000654238 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D78BE24BC0D3000654238 /* SceneDelegate.swift */; };
+		0B5D78C124BC0D3000654238 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D78C024BC0D3000654238 /* ContentView.swift */; };
+		0B5D78C324BC0D3300654238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D78C224BC0D3300654238 /* Assets.xcassets */; };
+		0B5D78C624BC0D3300654238 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D78C524BC0D3300654238 /* Preview Assets.xcassets */; };
+		0B5D78C924BC0D3300654238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D78C724BC0D3300654238 /* LaunchScreen.storyboard */; };
+		0B5D78D424BC0D3300654238 /* cmpe235_homework_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D78D324BC0D3300654238 /* cmpe235_homework_swiftuiTests.swift */; };
+		0B5D78DF24BC0D3300654238 /* cmpe235_homework_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D78DE24BC0D3300654238 /* cmpe235_homework_swiftuiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B5D78D024BC0D3300654238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B5D78B124BC0D3000654238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5D78B824BC0D3000654238;
+			remoteInfo = "cmpe235-homework-swiftui";
+		};
+		0B5D78DB24BC0D3300654238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B5D78B124BC0D3000654238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5D78B824BC0D3000654238;
+			remoteInfo = "cmpe235-homework-swiftui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5D78B924BC0D3000654238 /* cmpe235-homework-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cmpe235-homework-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5D78BC24BC0D3000654238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B5D78BE24BC0D3000654238 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0B5D78C024BC0D3000654238 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B5D78C224BC0D3300654238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B5D78C524BC0D3300654238 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B5D78C824BC0D3300654238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B5D78CA24BC0D3300654238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5D78CF24BC0D3300654238 /* cmpe235-homework-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cmpe235-homework-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5D78D324BC0D3300654238 /* cmpe235_homework_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cmpe235_homework_swiftuiTests.swift; sourceTree = "<group>"; };
+		0B5D78D524BC0D3300654238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5D78DA24BC0D3300654238 /* cmpe235-homework-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cmpe235-homework-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5D78DE24BC0D3300654238 /* cmpe235_homework_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cmpe235_homework_swiftuiUITests.swift; sourceTree = "<group>"; };
+		0B5D78E024BC0D3300654238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B5D78B624BC0D3000654238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5D78CC24BC0D3300654238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5D78D724BC0D3300654238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5D78B024BC0D3000654238 = {
+			isa = PBXGroup;
+			children = (
+				0B5D78BB24BC0D3000654238 /* cmpe235-homework-swiftui */,
+				0B5D78D224BC0D3300654238 /* cmpe235-homework-swiftuiTests */,
+				0B5D78DD24BC0D3300654238 /* cmpe235-homework-swiftuiUITests */,
+				0B5D78BA24BC0D3000654238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B5D78BA24BC0D3000654238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B5D78B924BC0D3000654238 /* cmpe235-homework-swiftui.app */,
+				0B5D78CF24BC0D3300654238 /* cmpe235-homework-swiftuiTests.xctest */,
+				0B5D78DA24BC0D3300654238 /* cmpe235-homework-swiftuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B5D78BB24BC0D3000654238 /* cmpe235-homework-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				0B5D78BC24BC0D3000654238 /* AppDelegate.swift */,
+				0B5D78BE24BC0D3000654238 /* SceneDelegate.swift */,
+				0B5D78C024BC0D3000654238 /* ContentView.swift */,
+				0B5D78C224BC0D3300654238 /* Assets.xcassets */,
+				0B5D78C724BC0D3300654238 /* LaunchScreen.storyboard */,
+				0B5D78CA24BC0D3300654238 /* Info.plist */,
+				0B5D78C424BC0D3300654238 /* Preview Content */,
+			);
+			path = "cmpe235-homework-swiftui";
+			sourceTree = "<group>";
+		};
+		0B5D78C424BC0D3300654238 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B5D78C524BC0D3300654238 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B5D78D224BC0D3300654238 /* cmpe235-homework-swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5D78D324BC0D3300654238 /* cmpe235_homework_swiftuiTests.swift */,
+				0B5D78D524BC0D3300654238 /* Info.plist */,
+			);
+			path = "cmpe235-homework-swiftuiTests";
+			sourceTree = "<group>";
+		};
+		0B5D78DD24BC0D3300654238 /* cmpe235-homework-swiftuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5D78DE24BC0D3300654238 /* cmpe235_homework_swiftuiUITests.swift */,
+				0B5D78E024BC0D3300654238 /* Info.plist */,
+			);
+			path = "cmpe235-homework-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B5D78B824BC0D3000654238 /* cmpe235-homework-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5D78E324BC0D3300654238 /* Build configuration list for PBXNativeTarget "cmpe235-homework-swiftui" */;
+			buildPhases = (
+				0B5D78B524BC0D3000654238 /* Sources */,
+				0B5D78B624BC0D3000654238 /* Frameworks */,
+				0B5D78B724BC0D3000654238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cmpe235-homework-swiftui";
+			productName = "cmpe235-homework-swiftui";
+			productReference = 0B5D78B924BC0D3000654238 /* cmpe235-homework-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B5D78CE24BC0D3300654238 /* cmpe235-homework-swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5D78E624BC0D3300654238 /* Build configuration list for PBXNativeTarget "cmpe235-homework-swiftuiTests" */;
+			buildPhases = (
+				0B5D78CB24BC0D3300654238 /* Sources */,
+				0B5D78CC24BC0D3300654238 /* Frameworks */,
+				0B5D78CD24BC0D3300654238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5D78D124BC0D3300654238 /* PBXTargetDependency */,
+			);
+			name = "cmpe235-homework-swiftuiTests";
+			productName = "cmpe235-homework-swiftuiTests";
+			productReference = 0B5D78CF24BC0D3300654238 /* cmpe235-homework-swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B5D78D924BC0D3300654238 /* cmpe235-homework-swiftuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5D78E924BC0D3300654238 /* Build configuration list for PBXNativeTarget "cmpe235-homework-swiftuiUITests" */;
+			buildPhases = (
+				0B5D78D624BC0D3300654238 /* Sources */,
+				0B5D78D724BC0D3300654238 /* Frameworks */,
+				0B5D78D824BC0D3300654238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5D78DC24BC0D3300654238 /* PBXTargetDependency */,
+			);
+			name = "cmpe235-homework-swiftuiUITests";
+			productName = "cmpe235-homework-swiftuiUITests";
+			productReference = 0B5D78DA24BC0D3300654238 /* cmpe235-homework-swiftuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B5D78B124BC0D3000654238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lee, Hoseong";
+				TargetAttributes = {
+					0B5D78B824BC0D3000654238 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0B5D78CE24BC0D3300654238 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0B5D78B824BC0D3000654238;
+					};
+					0B5D78D924BC0D3300654238 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0B5D78B824BC0D3000654238;
+					};
+				};
+			};
+			buildConfigurationList = 0B5D78B424BC0D3000654238 /* Build configuration list for PBXProject "cmpe235-homework-swiftui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B5D78B024BC0D3000654238;
+			productRefGroup = 0B5D78BA24BC0D3000654238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B5D78B824BC0D3000654238 /* cmpe235-homework-swiftui */,
+				0B5D78CE24BC0D3300654238 /* cmpe235-homework-swiftuiTests */,
+				0B5D78D924BC0D3300654238 /* cmpe235-homework-swiftuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B5D78B724BC0D3000654238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5D78C924BC0D3300654238 /* LaunchScreen.storyboard in Resources */,
+				0B5D78C624BC0D3300654238 /* Preview Assets.xcassets in Resources */,
+				0B5D78C324BC0D3300654238 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5D78CD24BC0D3300654238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5D78D824BC0D3300654238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B5D78B524BC0D3000654238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5D78BD24BC0D3000654238 /* AppDelegate.swift in Sources */,
+				0B5D78BF24BC0D3000654238 /* SceneDelegate.swift in Sources */,
+				0B5D78C124BC0D3000654238 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5D78CB24BC0D3300654238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5D78D424BC0D3300654238 /* cmpe235_homework_swiftuiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5D78D624BC0D3300654238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5D78DF24BC0D3300654238 /* cmpe235_homework_swiftuiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B5D78D124BC0D3300654238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5D78B824BC0D3000654238 /* cmpe235-homework-swiftui */;
+			targetProxy = 0B5D78D024BC0D3300654238 /* PBXContainerItemProxy */;
+		};
+		0B5D78DC24BC0D3300654238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5D78B824BC0D3000654238 /* cmpe235-homework-swiftui */;
+			targetProxy = 0B5D78DB24BC0D3300654238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B5D78C724BC0D3300654238 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B5D78C824BC0D3300654238 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B5D78E124BC0D3300654238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B5D78E224BC0D3300654238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B5D78E424BC0D3300654238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"cmpe235-homework-swiftui/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "cmpe235-homework-swiftui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SJSU.cmpe235-homework-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B5D78E524BC0D3300654238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"cmpe235-homework-swiftui/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "cmpe235-homework-swiftui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SJSU.cmpe235-homework-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B5D78E724BC0D3300654238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cmpe235-homework-swiftuiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SJSU.cmpe235-homework-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cmpe235-homework-swiftui.app/cmpe235-homework-swiftui";
+			};
+			name = Debug;
+		};
+		0B5D78E824BC0D3300654238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cmpe235-homework-swiftuiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SJSU.cmpe235-homework-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cmpe235-homework-swiftui.app/cmpe235-homework-swiftui";
+			};
+			name = Release;
+		};
+		0B5D78EA24BC0D3300654238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cmpe235-homework-swiftuiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SJSU.cmpe235-homework-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cmpe235-homework-swiftui";
+			};
+			name = Debug;
+		};
+		0B5D78EB24BC0D3300654238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cmpe235-homework-swiftuiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SJSU.cmpe235-homework-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cmpe235-homework-swiftui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B5D78B424BC0D3000654238 /* Build configuration list for PBXProject "cmpe235-homework-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5D78E124BC0D3300654238 /* Debug */,
+				0B5D78E224BC0D3300654238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5D78E324BC0D3300654238 /* Build configuration list for PBXNativeTarget "cmpe235-homework-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5D78E424BC0D3300654238 /* Debug */,
+				0B5D78E524BC0D3300654238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5D78E624BC0D3300654238 /* Build configuration list for PBXNativeTarget "cmpe235-homework-swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5D78E724BC0D3300654238 /* Debug */,
+				0B5D78E824BC0D3300654238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5D78E924BC0D3300654238 /* Build configuration list for PBXNativeTarget "cmpe235-homework-swiftuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5D78EA24BC0D3300654238 /* Debug */,
+				0B5D78EB24BC0D3300654238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B5D78B124BC0D3000654238 /* Project object */;
+}
