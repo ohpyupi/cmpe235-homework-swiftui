@@ -3,6 +3,7 @@
 This project is to create a basic iOS application using Machine Learning provided by the Apple's Core ML API.
 
 ### User Experiences
-
-![Sample User Profile List Page](./.github/pictures/sample-user-profile-list-page.png)
-![Sample User Profile Page](./.github/pictures/ample-user-profile-page.png)
+<p float="left">
+  <img src="./.github/pictures/sample-user-profile-list-page.png" width="320px">
+  <img src="./.github/pictures/sample-user-profile-page.png" width="320px">
+</p>
