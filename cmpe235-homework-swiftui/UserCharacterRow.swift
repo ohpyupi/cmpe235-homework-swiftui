@@ -1,5 +1,5 @@
 //
-//  LandmarkRow.swift
+//  UserCharacterRow.swift
 //  cmpe235-homework-swiftui
 //
 //  Created by Lee, Hoseong on 7/12/20.
@@ -8,21 +8,21 @@
 
 import SwiftUI
 
-struct LandmarkRow: View {
-    var landmark: Landmark
+struct UserCharacterRow: View {
+    var userCharacter: UserCharacter
     var body: some View {
         HStack {
-            landmark.image
+            userCharacter.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(landmark.name)
+            Text(userCharacter.name)
             Spacer()
         }
     }
 }
 
-struct LandmarkRow_Previews: PreviewProvider {
+struct UserCharacterRow_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkRow(landmark: landmarkData[0])
+        UserCharacterRow(userCharacter: userCharacterData[0])
     }
 }

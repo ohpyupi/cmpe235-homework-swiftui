@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1001,
+        "name": "Fieldmedic",
+        "faction": "Alliance",
+        "race": "Worgen",
+        "className": "Priest",
+        "serverName": "Stormrage",
+        "imageName": "worgen-priest"
+    },
+    {
+        "id": 1002,
+        "name": "Nightbear",
+        "faction": "Alliance",
+        "race": "Night Elf",
+        "className": "Druid",
+        "serverName": "Stormrage",
+        "imageName": "nightelf-druid"
+    },
+    {
+        "id": 1003,
+        "name": "Heavyhammer",
+        "faction": "Horde",
+        "race": "Blood Elf",
+        "className": "Paladin",
+        "serverName": "Area 52",
+        "imageName": "bloodelf-paladin"
+    },
+    {
+        "id": 1004,
+        "name": "Firethor",
+        "faction": "Horde",
+        "race": "Orc",
+        "className": "Shaman",
+        "serverName": "Area 52",
+        "imageName": "orc-shaman"
+    },
+    {
+        "id": 1005,
+        "name": "Shadowcow",
+        "faction": "Horde",
+        "race": "Tauren",
+        "className": "Death Knight",
+        "serverName": "Area 52",
+        "imageName": "tauren-deathknight"
+    },
+    {
+        "id": 1006,
+        "name": "Goodtrolling",
+        "faction": "Horde",
+        "race": "Troll",
+        "className": "Hunter",
+        "serverName": "Area 52",
+        "imageName": "troll-hunter"
+    },
+    {
+        "id": 1007,
+        "name": "Catchifyoucan",
+        "faction": "Alliance",
+        "race": "Gnome",
+        "className": "Mage",
+        "serverName": "Stormrage",
+        "imageName": "gnome-mage"
+    },
+    {
+        "id": 1008,
+        "name": "Strongman",
+        "faction": "Alliance",
+        "race": "Dwarf",
+        "className": "Warrior",
+        "serverName": "Stormrage",
+        "imageName": "dwarf-warrior"
+    }
+]
