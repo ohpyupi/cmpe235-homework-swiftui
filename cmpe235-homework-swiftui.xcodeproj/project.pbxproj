@@ -29,6 +29,7 @@
 		0B5DF8D424C3C960009BA0D6 /* troll-hunter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B5DF8D324C3C95F009BA0D6 /* troll-hunter.jpg */; };
 		0B5DF8D624C3CA21009BA0D6 /* gnome-mage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B5DF8D524C3CA21009BA0D6 /* gnome-mage.jpg */; };
 		0B5DF8D824C3CAB5009BA0D6 /* dwarf-warrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B5DF8D724C3CAB5009BA0D6 /* dwarf-warrior.jpg */; };
+		0B74D45A24CE6FE3003FF24C /* WowCharacterRace.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B74D45924CE6FE3003FF24C /* WowCharacterRace.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		0B5DF8D324C3C95F009BA0D6 /* troll-hunter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "troll-hunter.jpg"; path = "../../../../Desktop/troll-hunter.jpg"; sourceTree = "<group>"; };
 		0B5DF8D524C3CA21009BA0D6 /* gnome-mage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gnome-mage.jpg"; path = "../../../../Desktop/gnome-mage.jpg"; sourceTree = "<group>"; };
 		0B5DF8D724C3CAB5009BA0D6 /* dwarf-warrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dwarf-warrior.jpg"; path = "../../../../Desktop/dwarf-warrior.jpg"; sourceTree = "<group>"; };
+		0B74D45924CE6FE3003FF24C /* WowCharacterRace.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = WowCharacterRace.mlmodel; path = ../../../Documents/WowCharacterRace.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		0B5D78BB24BC0D3000654238 /* cmpe235-homework-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				0B74D45924CE6FE3003FF24C /* WowCharacterRace.mlmodel */,
 				0B5D78FD24BC269000654238 /* Resources */,
 				0B5D78F624BC243F00654238 /* Models */,
 				0B5D78F024BC134200654238 /* CircleImage.swift */,
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B74D45A24CE6FE3003FF24C /* WowCharacterRace.mlmodel in Sources */,
 				0B5D78FC24BC266800654238 /* Data.swift in Sources */,
 				0B5D78BD24BC0D3000654238 /* AppDelegate.swift in Sources */,
 				0B5D78F124BC134200654238 /* CircleImage.swift in Sources */,
