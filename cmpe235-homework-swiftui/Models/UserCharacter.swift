@@ -16,7 +16,7 @@ struct UserCharacter: Hashable, Codable, Identifiable {
     var race: String
     var className: String
     var serverName: String
-    fileprivate var imageName: String
+    var imageName: String
 }
 
 
